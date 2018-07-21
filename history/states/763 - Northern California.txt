@@ -1,0 +1,37 @@
+
+state={
+	id=763
+	name="STATE_763"
+	manpower = 1120000
+	
+	state_category = metropolis
+	
+	resources={
+		oil=20 # was: 350
+		aluminium=8 # was: 14
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			air_base = 3
+			610 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
+		}
+	}
+
+	provinces={
+        6757 6745 9697 766 11698 9730 6772 768 610 781 3588 10159 3644 6482 6665 4331
+	}
+}
